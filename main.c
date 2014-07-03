@@ -1,18 +1,8 @@
-/*
- *	Project: <project>
- *
- *	File: <filename>
- *	Author: <author>
- *	Created: <created date>
- *
- *	Description:
- *
- *
- */
 #include <stdio.h>
+#include <stdlib.h>
 
-int main(int argc, char **argv) 
+int main(int argc, char *argv[])
 {
-	printf("Hello\r\n");
-	return 0;
+  printf("Hi, I'm %s with argc = %d\n", argv[0], argc);
+  return 0;
 }
