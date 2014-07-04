@@ -5,10 +5,13 @@ CFLAGS	= -Wall -Wextra
 LDFLAGS	=
 
 ifeq (,$(GIT_VERSION))
-	CFLAGS	+= -DGIT_VERSION="\"no-git\""
-else
-	CFLAGS	+= -DGIT_VERSION="\"$(GIT_VERSION)\""
+	GIT_VERSION:="$(shell git describe)"
+	ifeq (,$(GIT_VERSION))
+		GIT_VERSION:=no-git
+	endif
 endif
+
+CFLAGS	+= -DGIT_VERSION="\"$(GIT_VERSION)\""
 
 all: prog
 
