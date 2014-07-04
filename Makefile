@@ -4,6 +4,12 @@ LD	= gcc
 CFLAGS	= -Wall -Wextra
 LDFLAGS	=
 
+ifeq (,$(GIT_VERSION))
+	CFLAGS	+= -DGIT_VERSION="\"no-git\""
+else
+	CFLAGS	+= -DGIT_VERSION="\"$(GIT_VERSION)\""
+endif
+
 all: prog
 
 prog: main.o
