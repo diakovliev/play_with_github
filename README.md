@@ -37,17 +37,15 @@ play_with_github
 2014-07-07: Iurii Ovcharenko
   ssssssss
 
-2014-07-07: Dmytro Iakovliev
-  yohoho
-
 2014-07-07: Iurii Ovcharenko
   ttttt
 
-<<<<<<< HEAD
-=======
 2014-07-07: Iurii Ovcharenko
   trew
 
+2014-07-07: Iurii Ovcharenko
+  wqer
 
 
->>>>>>> [NORMAL]: t1000 readme commit
+
+
