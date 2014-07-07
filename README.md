@@ -43,3 +43,11 @@ play_with_github
 2014-07-07: Iurii Ovcharenko
   ttttt
 
+<<<<<<< HEAD
+=======
+2014-07-07: Iurii Ovcharenko
+  trew
+
+
+
+>>>>>>> [NORMAL]: t1000 readme commit
