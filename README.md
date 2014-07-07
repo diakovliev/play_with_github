@@ -18,3 +18,6 @@ play_with_github
 
 2014-07-07: Iurii Ovcharenko
   Quintuple ball package :)
+
+2014-07-07: Iurii Ovcharenko
+  Sixth sin
