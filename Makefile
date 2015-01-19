@@ -9,7 +9,14 @@ export LDFLAGS		=
 
 export PWD		= $(shell pwd)
 
+
+
+
+
 PACKAGE_PROGS		= apps/vpr
+
+VERY BAD CHANGE
+
 PACKAGE_LIBS		= libs/gitver
 
 ifeq (,$(GIT_VERSION))
